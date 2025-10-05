@@ -1,4 +1,4 @@
-# Project Name
+# Hyperion
 ## [Project Demo (Web Application)](https://pugzzzf.itch.io/space-monkey)
 ![image](link)
 
@@ -26,7 +26,7 @@ Submission for the https://www.spaceappschallenge.org/2025/challenges/meteor-mad
 
 Since the beginning of humanity, we have established patterns and ways to avoid danger for survival, we have learnt to overcome the food chain, natural disasters such as earthquakes and hurricanes, pandemics and much more. However, there's a whole universe out there just above our heads. Namely, one of these dangers are foreign objects such as meteors; these can be small pieces of rock, metals or space debris, these enter our atmosphere at very high speeds and usually burns up from the friction the air provides. However, some times there foreign objects can be big enough to withstand the friction and burst very close to Earth, or even physically impact the surface, these cases are called impact events.
 
-The challenge herein lies whether we have enough tools for the public and decision makers to understand the consequences of such rare, but grueling encounters. Asteroids can be hardly avoided when one has a set trajectory towards Earth; in Kármán Line, we believe modeling the effects of said potentially catastrophic encounters will impact the lives of everyone positively, the effects of said events are the following: an impact crater, high pressure waves, seismic energy that's turned into seismic activity, all of this, unfortunately, may lead to the loss of human and animal life alike, severe injuries and high infrastructure damages. Our project aims to bring conscience to the public as to how devastating these asteroids can be, and for law enforcement to be able to plan around the predicted data and mitigate further losses.
+The challenge herein lies whether we have enough tools for the public and decision makers to understand the consequences of such rare, but grueling encounters. Asteroids can be hardly avoided when one has a set trajectory towards Earth; in Hyperion, we believe modeling the effects of said potentially catastrophic encounters will impact the lives of everyone positively, the effects of said events are the following: an impact crater, high pressure waves, seismic energy that's turned into seismic activity, all of this, unfortunately, may lead to the loss of human and animal life alike, severe injuries and high infrastructure damages. Our project aims to bring conscience to the public as to how devastating these asteroids can be, and for law enforcement to be able to plan around the predicted data and mitigate further losses.
 
 In essence, this project is easy enough to use and understand for a person to play around and see the consequences of any asteroid that they may see fit, but also complex enough where it can estimate accurately the amount of casualties, injuries and energy exercised in the impact. We cannot duck and hide from an asteroid impact, but we can plan accordingly.
 
@@ -34,7 +34,7 @@ In essence, this project is easy enough to use and understand for a person to pl
 
 # Introduction
 
-The Kármán Line project is a solution to the lack of tools for predicting and modelling asteroid impacts on Earth, it offers a realistic view on the consequences of an asteroid coming into contact with Earth, consequences we can't quite avoid, but can mitigate and plan around of. The Kármán Line project utilizes physical formulas and models to calculate the physical attributes of each impact, and estimate the numbers of casualties and injuries based on the previously mentioned elements and factoring in the data of each region on Earth, such as the density of population and the resistance of the terrain of said region.
+The Hyperion project is a solution to the lack of tools for predicting and modelling asteroid impacts on Earth, it offers a realistic view on the consequences of an asteroid coming into contact with Earth, consequences we can't quite avoid, but can mitigate and plan around of. The Hyperion project utilizes physical formulas and models to calculate the physical attributes of each impact, and estimate the numbers of casualties and injuries based on the previously mentioned elements and factoring in the data of each region on Earth, such as the density of population and the resistance of the terrain of said region.
 
 ![image](meteor data image)
 Above image
@@ -78,7 +78,7 @@ We also believe it would be a good idea to determine the time it takes for an im
 
 # Scientific support document
 
-Attached is a link that provides scientific support to the formulas and models used in the Kármán Line project: https://google.com
+Attached is a link that provides scientific support to the formulas and models used in the Hyperion project: https://google.com
 
 # Languages, platforms, engines & other technologies
 
