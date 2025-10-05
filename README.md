@@ -38,6 +38,7 @@ The Kármán Line project is a solution to the lack of tools for predicting and 
 
 ![image](meteor data image)
 <p style="text-align: center;">Above: Input of meteor variables inside program</p>
+<center>Above: Input of meteor variables inside program</center>
 
 # Video
 [Project Karman Line demonstration](https://www.youtube.com)
