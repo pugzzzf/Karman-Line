@@ -72,7 +72,10 @@ The casualty formulas we have determined are weighted by a risk factor to reflec
 
 # The Future
 
-fgagar
+In the future, we also plan to add accurate predictions of infrastructure and economic damage, based on several factors such as urbanization, gross domestic product, whether a region's economy depends on industry, agriculture, etc. All these variables make the estimation of economic damage a challenge, however, it is a necessity to further reinforce the people's consciousness on the consequences of impact events.
+
+We also believe it would be a good idea to determine the time it takes for an impact crater to heal; as it leaves a mark in our planet, how many years would it take for the flora and fauna to regenerate in the destroyed, barren land?
+
 
 # Scientific support document
 
