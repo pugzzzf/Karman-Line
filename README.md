@@ -37,10 +37,10 @@ In essence, this project is easy enough to use and understand for a person to pl
 The Kármán Line project is a solution to the lack of tools for predicting and modelling asteroid impacts on Earth, it offers a realistic view on the consequences of an asteroid coming into contact with Earth, consequences we can't quite avoid, but can mitigate and plan around of. The Kármán Line project utilizes physical formulas and models to calculate the physical attributes of each impact, and estimate the numbers of casualties and injuries based on the previously mentioned elements and factoring in the data of each region on Earth, such as the density of population and the resistance of the terrain of said region.
 
 ![image](meteor data image)
-<p style="text-align: center;">Above: Input of meteor variables inside program</p>
-<center>Above: Input of meteor variables inside program</center>
-<p align="center">
-</p>Above: Input of meteor variables inside program </p>
+<div style="text-align: center;">
+{{.Inner}}
+</div>
+
 
 # Video
 [Project Karman Line demonstration](https://www.youtube.com)
