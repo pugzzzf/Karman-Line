@@ -55,8 +55,8 @@ We used various models for complex calculations such as seismic energy or crater
 
 The crater diameter is estimated using the Holsapple–Schmidt pi-scaling model, which accounts for the impactor's diameter, velocity and material, and the target's mechanical properties. This semi-empirical formulation distinguishes between gravity-dominated and strength-dominated regimes. Effects such as impact angle, pressure gradient and local gravity variations are not considered. 
 
-
 We also determine a "fatality radius", distances where the risk of loss of life is very high, based on the overpressure of the impact and the seismic magnitude caused by the impact. The overpressure tells us the effect of the shock wave of an explosion or its equivalent, and can be measured empirically with graphics:
+
 ![image](airburst graph)
 
 While observing, we can establish an almost linear relationship between overpressure and the logarithm of the distance of impact in intervals of log10(10^2) and log10(3*10^2), and we made a linear regression adjustment. We obtain an equation that relates the overpressure with distance (in kilometers) for explosions of 1 kiloton of TNT, doing this we can extend to any number of kilotons and obtain the distance that we need, and the fatality radius provoked by the shock wave is the distance where the pressure is near or higher than 35 psi.
@@ -76,10 +76,9 @@ In the future, we also plan to add accurate predictions of infrastructure and ec
 
 We also believe it would be a good idea to determine the time it takes for an impact crater to heal; as it leaves a mark in our planet, how many years would it take for the flora and fauna to regenerate in the destroyed, barren land?
 
-
 # Scientific support document
 
-Provided is a link that provides scientific support to the formulas and models used in the Kármán Line project: https://google.com
+Attached is a link that provides scientific support to the formulas and models used in the Kármán Line project: https://google.com
 
 # Languages, platforms, engines & other technologies
 
@@ -96,3 +95,4 @@ Provided is a link that provides scientific support to the formulas and models u
 - Carlos Armando Quijada Amavizca
 - Rogelio Vélez Galaz
 - Sofía Verdugo Amavizca 
+![image](link)
