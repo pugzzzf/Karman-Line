@@ -1,0 +1,58 @@
+[gd_scene load_steps=12 format=3 uid="uid://b4loti77gvdpp"]
+
+[ext_resource type="Texture2D" uid="uid://co382tusaq75q" path="res://Assets/animated/reddot/Red Dot.001.png" id="1_uv5gp"]
+[ext_resource type="Texture2D" uid="uid://dx80e2ymadgdw" path="res://Assets/animated/reddot/Red Dot.002.png" id="2_2vmmy"]
+[ext_resource type="Texture2D" uid="uid://bqpcaqistrv8u" path="res://Assets/animated/reddot/Red Dot.003.png" id="3_g88ym"]
+[ext_resource type="Texture2D" uid="uid://ilw4k36b3e27" path="res://Assets/animated/reddot/Red Dot.004.png" id="4_d55d0"]
+[ext_resource type="Texture2D" uid="uid://cav2bgks2gh6i" path="res://Assets/animated/reddot/Red Dot.005.png" id="5_cseiy"]
+[ext_resource type="Texture2D" uid="uid://dfdysboyyy4oa" path="res://Assets/animated/reddot/Red Dot.006.png" id="6_onqwa"]
+[ext_resource type="Texture2D" uid="uid://bkb1a4h3pllv1" path="res://Assets/animated/reddot/Red Dot.007.png" id="7_qu5uk"]
+[ext_resource type="Texture2D" uid="uid://dcg1pfwt7ru3p" path="res://Assets/animated/reddot/Red Dot.008.png" id="8_ij1ic"]
+[ext_resource type="Texture2D" uid="uid://cq56owiskv7d6" path="res://Assets/animated/reddot/Red Dot.009.png" id="9_pmqt5"]
+[ext_resource type="Texture2D" uid="uid://xg007wnsn7ue" path="res://Assets/animated/reddot/Red Dot.010.png" id="10_q5hnp"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_uv5gp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_uv5gp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_2vmmy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_g88ym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_d55d0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_cseiy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_onqwa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_qu5uk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ij1ic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_pmqt5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_q5hnp")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[node name="BodyDot" type="StaticBody2D"]
+
+[node name="RedDot" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.2, 0.2)
+sprite_frames = SubResource("SpriteFrames_uv5gp")
+autoplay = "default"
+frame_progress = 0.45715794

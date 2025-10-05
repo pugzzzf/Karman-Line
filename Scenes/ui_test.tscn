@@ -1,0 +1,115 @@
+[gd_scene load_steps=5 format=3 uid="uid://eo8np6x1bsfc"]
+
+[ext_resource type="Texture2D" uid="uid://basvevoauglam" path="res://Assets/placeholders/testbutton.png" id="1_7akbu"]
+[ext_resource type="Script" uid="uid://b236tc4rs3xxl" path="res://Scripts/meteorval.gd" id="2_ameto"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_7akbu"]
+font_size = 50
+
+[sub_resource type="LabelSettings" id="LabelSettings_qk6iy"]
+font_size = 50
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_right = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 130.0
+offset_top = 158.0
+offset_right = 1013.0
+offset_bottom = 495.0
+script = ExtResource("2_ameto")
+
+[node name="DiameterLabel" type="Label" parent="Panel"]
+layout_mode = 0
+offset_top = 8.0
+offset_right = 226.0
+offset_bottom = 77.0
+text = "Diameter"
+label_settings = SubResource("LabelSettings_7akbu")
+
+[node name="DiameterBox" type="SpinBox" parent="Panel/DiameterLabel"]
+layout_mode = 0
+offset_left = 304.0
+offset_top = 1.0
+offset_right = 883.0
+offset_bottom = 66.0
+tooltip_text = "seiuhgiujknnjnjnkjknj
+"
+min_value = 5.0
+max_value = 1000.0
+value = 5.0
+alignment = 1
+suffix = "m"
+
+[node name="VelocityLabel" type="Label" parent="Panel"]
+layout_mode = 0
+offset_top = 104.0
+offset_right = 190.0
+offset_bottom = 173.0
+text = "Velocity"
+label_settings = SubResource("LabelSettings_qk6iy")
+
+[node name="VelocityBox" type="SpinBox" parent="Panel/VelocityLabel"]
+layout_mode = 0
+offset_left = 304.0
+offset_top = 1.0
+offset_right = 883.0
+offset_bottom = 66.0
+tooltip_text = "seiuhgiujknnjnjnkjknj
+"
+min_value = 1.0
+max_value = 30.0
+value = 1.0
+alignment = 1
+suffix = "km/s"
+
+[node name="TypeLabel" type="Label" parent="Panel"]
+layout_mode = 0
+offset_top = 193.0
+offset_right = 190.0
+offset_bottom = 262.0
+text = "Type"
+label_settings = SubResource("LabelSettings_qk6iy")
+
+[node name="TypeBox" type="OptionButton" parent="Panel/TypeLabel"]
+layout_mode = 0
+offset_left = 304.0
+offset_right = 882.0
+offset_bottom = 66.0
+alignment = 1
+selected = 2
+item_count = 5
+popup/item_0/text = "Ice"
+popup/item_0/id = 0
+popup/item_1/text = "Rubble pile"
+popup/item_1/id = 1
+popup/item_2/text = "Common rock"
+popup/item_2/id = 2
+popup/item_3/text = "Stony Iron"
+popup/item_3/id = 3
+popup/item_4/text = "Metallic"
+popup/item_4/id = 4
+
+[node name="Save" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 293.0
+offset_top = 273.0
+offset_right = 572.0
+offset_bottom = 338.0
+text = "save bro"
+
+[node name="TextureButton" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 1000.0
+offset_top = 16.0
+offset_right = 1125.0
+offset_bottom = 141.0
+texture_normal = ExtResource("1_7akbu")

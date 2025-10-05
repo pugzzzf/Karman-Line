@@ -1,0 +1,226 @@
+[gd_scene load_steps=17 format=3 uid="uid://cbvhkxw21wndm"]
+
+[ext_resource type="Texture2D" uid="uid://c00vfp73tdrkg" path="res://Assets/pentadecagonpng.png" id="1_yv4am"]
+[ext_resource type="Texture2D" uid="uid://6qq3rvfgq64q" path="res://Assets/map.jpg" id="2_ibi36"]
+[ext_resource type="Script" uid="uid://ds2c5y3q6nbl6" path="res://Scripts/scroll.gd" id="3_yntm1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yv4am"]
+size = Vector2(751.5784, 171.54005)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ibi36"]
+size = Vector2(751.57916, 327.48544)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yntm1"]
+size = Vector2(751.5791, 580.8969)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qwh6a"]
+size = Vector2(530.52637, 198.99104)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_df4r7"]
+size = Vector2(530.2632, 191.2637)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6d2bh"]
+size = Vector2(237.89478, 309.112)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_knocq"]
+size = Vector2(174.73685, 305.2488)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_egrlp"]
+size = Vector2(399.7369, 309.1126)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aki2x"]
+size = Vector2(705.00006, 465.6006)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ki76a"]
+size = Vector2(152.36841, 152.30177)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_58g4q"]
+size = Vector2(311.57895, 152.62457)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pfpie"]
+size = Vector2(463.1579, 618.225)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m8fbf"]
+size = Vector2(530.5262, 224.10663)
+
+[node name="EarthScene" type="Node2D"]
+
+[node name="BorderMask" type="Sprite2D" parent="."]
+clip_children = 1
+position = Vector2(588, 326)
+scale = Vector2(0.475, 0.475)
+texture = ExtResource("1_yv4am")
+
+[node name="EarthMap" type="Sprite2D" parent="BorderMask"]
+position = Vector2(0, 5.2420607)
+scale = Vector2(1, 1.0897076)
+texture = ExtResource("2_ibi36")
+script = ExtResource("3_yntm1")
+
+[node name="EarthMapDupe" type="Sprite2D" parent="BorderMask/EarthMap"]
+position = Vector2(1919.3665, 0.010047913)
+texture = ExtResource("2_ibi36")
+
+[node name="CAmericaDupe" type="Area2D" parent="BorderMask/EarthMap/EarthMapDupe"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/EarthMapDupe/CAmericaDupe"]
+position = Vector2(-584.2101, -126.70563)
+scale = Vector2(0.9999993, 0.999999)
+shape = SubResource("RectangleShape2D_yv4am")
+
+[node name="NAmericaDupe" type="Area2D" parent="BorderMask/EarthMap/EarthMapDupe"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/EarthMapDupe/NAmericaDupe"]
+position = Vector2(-584.21045, -376.2181)
+scale = Vector2(0.9999993, 0.9999992)
+shape = SubResource("RectangleShape2D_ibi36")
+
+[node name="SAmericaDupe" type="Area2D" parent="BorderMask/EarthMap/EarthMapDupe"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/EarthMapDupe/SAmericaDupe"]
+position = Vector2(-584.2104, 249.51263)
+scale = Vector2(0.99999946, 0.99999946)
+shape = SubResource("RectangleShape2D_yntm1")
+
+[node name="EAsiaDupe" type="Area2D" parent="BorderMask/EarthMap/EarthMapDupe"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/EarthMapDupe/EAsiaDupe"]
+position = Vector2(694.7368, -216.3595)
+shape = SubResource("RectangleShape2D_qwh6a")
+
+[node name="SEAsiaDupe" type="Area2D" parent="BorderMask/EarthMap/EarthMapDupe"]
+position = Vector2(0, -1.9493408)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/EarthMapDupe/SEAsiaDupe"]
+position = Vector2(694.8684, -19.283081)
+shape = SubResource("RectangleShape2D_df4r7")
+
+[node name="CAsiaDupe" type="Area2D" parent="BorderMask/EarthMap/EarthMapDupe"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/EarthMapDupe/CAsiaDupe"]
+position = Vector2(310.52637, -385.40546)
+shape = SubResource("RectangleShape2D_6d2bh")
+
+[node name="IndianSubDupe" type="Area2D" parent="BorderMask/EarthMap/EarthMapDupe"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/EarthMapDupe/IndianSubDupe"]
+position = Vector2(342.10522, -78.224915)
+shape = SubResource("RectangleShape2D_knocq")
+
+[node name="EuropeDupe" type="Area2D" parent="BorderMask/EarthMap/EarthMapDupe"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/EarthMapDupe/EuropeDupe"]
+position = Vector2(-8.289551, -385.4053)
+shape = SubResource("RectangleShape2D_egrlp")
+
+[node name="AustraliaDupe" type="Area2D" parent="BorderMask/EarthMap/EarthMapDupe"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/EarthMapDupe/AustraliaDupe"]
+position = Vector2(607.5, 307.19977)
+shape = SubResource("RectangleShape2D_aki2x")
+
+[node name="MiddleEastDupe" type="Area2D" parent="BorderMask/EarthMap/EarthMapDupe"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/EarthMapDupe/MiddleEastDupe"]
+position = Vector2(179.34204, -154.3757)
+shape = SubResource("RectangleShape2D_ki76a")
+
+[node name="SaharaDupe" type="Area2D" parent="BorderMask/EarthMap/EarthMapDupe"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/EarthMapDupe/SaharaDupe"]
+position = Vector2(-52.63159, -154.53702)
+shape = SubResource("RectangleShape2D_58g4q")
+
+[node name="AfricaDupe" type="Area2D" parent="BorderMask/EarthMap/EarthMapDupe"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/EarthMapDupe/AfricaDupe"]
+position = Vector2(23.157959, 230.88739)
+shape = SubResource("RectangleShape2D_pfpie")
+
+[node name="CAsia2Dupe" type="Area2D" parent="BorderMask/EarthMap/EarthMapDupe"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/EarthMapDupe/CAsia2Dupe"]
+position = Vector2(694.7368, -427.90826)
+shape = SubResource("RectangleShape2D_m8fbf")
+
+[node name="CAmerica" type="Area2D" parent="BorderMask/EarthMap"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/CAmerica"]
+position = Vector2(-584.2101, -126.70563)
+scale = Vector2(0.9999993, 0.999999)
+shape = SubResource("RectangleShape2D_yv4am")
+
+[node name="NAmerica" type="Area2D" parent="BorderMask/EarthMap"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/NAmerica"]
+position = Vector2(-584.21045, -376.2181)
+scale = Vector2(0.9999993, 0.9999992)
+shape = SubResource("RectangleShape2D_ibi36")
+
+[node name="SAmerica" type="Area2D" parent="BorderMask/EarthMap"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/SAmerica"]
+position = Vector2(-584.2104, 249.51263)
+scale = Vector2(0.99999946, 0.99999946)
+shape = SubResource("RectangleShape2D_yntm1")
+
+[node name="EAsia" type="Area2D" parent="BorderMask/EarthMap"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/EAsia"]
+position = Vector2(694.7368, -216.3595)
+shape = SubResource("RectangleShape2D_qwh6a")
+
+[node name="SEAsia" type="Area2D" parent="BorderMask/EarthMap"]
+position = Vector2(0, -1.9493408)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/SEAsia"]
+position = Vector2(694.8684, -19.283081)
+shape = SubResource("RectangleShape2D_df4r7")
+
+[node name="CAsia" type="Area2D" parent="BorderMask/EarthMap"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/CAsia"]
+position = Vector2(310.52637, -385.40546)
+shape = SubResource("RectangleShape2D_6d2bh")
+
+[node name="IndianSub" type="Area2D" parent="BorderMask/EarthMap"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/IndianSub"]
+position = Vector2(342.10522, -78.224915)
+shape = SubResource("RectangleShape2D_knocq")
+
+[node name="Europe" type="Area2D" parent="BorderMask/EarthMap"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/Europe"]
+position = Vector2(-8.289551, -385.4053)
+shape = SubResource("RectangleShape2D_egrlp")
+
+[node name="Australia" type="Area2D" parent="BorderMask/EarthMap"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/Australia"]
+position = Vector2(607.5, 307.19977)
+shape = SubResource("RectangleShape2D_aki2x")
+
+[node name="MiddleEast" type="Area2D" parent="BorderMask/EarthMap"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/MiddleEast"]
+position = Vector2(179.34204, -154.3757)
+shape = SubResource("RectangleShape2D_ki76a")
+
+[node name="Sahara" type="Area2D" parent="BorderMask/EarthMap"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/Sahara"]
+position = Vector2(-52.63159, -154.53702)
+shape = SubResource("RectangleShape2D_58g4q")
+
+[node name="Africa" type="Area2D" parent="BorderMask/EarthMap"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/Africa"]
+position = Vector2(23.157959, 230.88739)
+shape = SubResource("RectangleShape2D_pfpie")
+
+[node name="CAsia2" type="Area2D" parent="BorderMask/EarthMap"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BorderMask/EarthMap/CAsia2"]
+position = Vector2(694.7368, -427.90826)
+shape = SubResource("RectangleShape2D_m8fbf")
