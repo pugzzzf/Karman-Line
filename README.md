@@ -78,7 +78,7 @@ We also believe it would be a good idea to determine the time it takes for an im
 
 # Scientific support document
 
-Attached is a link that provides scientific support to the formulas and models used in the Hyperion project: https://google.com
+Attached is a link that provides scientific support to the formulas and models used in the Hyperion project: https://docs.google.com/document/d/1cVyTKHby7qRnoKVsp54XCH4_y1zJqPb_lX-q2kCoAQ0/edit?usp=sharing
 
 # Languages, platforms, engines & other technologies
 
